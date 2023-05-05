@@ -56,8 +56,7 @@ mark_inset(ax, axins2, loc1=1, loc2=3, linewidth=0.7,alpha=0.4, fc="None", ec='k
 ax.set_xlabel('Time [s]',labelpad=3)
 ax.set_ylabel('PZT1 Voltage [V]',labelpad=3)
 ax.set_xlim(0,2)
-
-plt.savefig('../paper/figures/temp_pzt1.png',bbox_inches='tight')
+#plt.savefig('../figures/temp_pzt1.png',bbox_inches='tight')
 
 # Figure 2 - Vibromter Velocity
 
@@ -78,29 +77,10 @@ mark_inset(ax, axins2, loc1=1, loc2=3, linewidth=0.7,alpha=0.4, fc="None", ec='k
 ax.set_xlabel('Time [s]',labelpad=3)
 ax.set_ylabel('Velocity [mm/s]',labelpad=3)
 ax.set_xlim(0,2)
-plt.savefig('../paper/figures/temp_vib.png',bbox_inches='tight')
-#plt.show()
+#plt.savefig('../figures/temp_vib.png',bbox_inches='tight')
+plt.show()
 #plt.close()
 
 
-# Figure 3 - Vibromter Velocity
-
-fig, ax = plt.subplots(1,1)
-ax.plot(t,data_temp_vib[0,0,:],'b')
-ax.set_xlabel('Time [s]',labelpad=3)
-ax.set_ylabel('Velocity [mm/s]',labelpad=3)
-ax.set_xlim(0,0.2)
-plt.savefig('../paper/figures/temp_vib_zoom.png',bbox_inches='tight')
-
-# Figure 4 - PZT 1 Voltage
-
-fig, ax = plt.subplots(1,1)
-ax.plot(t,data_temp_pzt1[0,0,:],'r')
-ax.set_xlabel('Time [s]',labelpad=3)
-ax.set_ylabel('PZT1 Voltage [V]',labelpad=3)
-ax.set_xlim(0,0.2)
-plt.savefig('../paper/figures/temp_pzt1_zoom.png',bbox_inches='tight')
-
-plt.show()
 
 

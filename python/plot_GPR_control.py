@@ -24,7 +24,6 @@ plt.rcParams['legend.fontsize']= 'large'
 plt.rcParams['savefig.dpi'] = 300
 
 
-# file_name='20230302_1051_data_GPRcontrol_on_off'
 file_name='20230302_1122_data_GPRcontrol_on_off'
 
 
@@ -92,7 +91,7 @@ ax[1].set_xlabel('Time [s]')
 ax[1].set_ylabel('Stack Voltage [V]')
 ax[1].set_xlim(0,t[-1])
 #plt.legend(fontsize=24)
-#plt.savefig('../paper/figures/vib_GPRcontrol_120s.png',bbox_inches='tight')
+plt.savefig('../figures/vib_GPRcontrol_120s.png',bbox_inches='tight')
 plt.show()
 
 

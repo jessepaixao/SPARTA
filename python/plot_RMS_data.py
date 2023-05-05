@@ -55,7 +55,7 @@ ax.set_ylabel('Stack Voltage [V]')
 ax.set_zlabel('RMS Velocity [mm/s]',labelpad=40)
 ax.view_init(30, -120)
 plt.show()
-plt.savefig('../paper/figures/vib_surface.png',bbox_inches='tight')
+plt.savefig('../figures/vib_surface.png',bbox_inches='tight')
 
 
 fig, ax = plt.subplots(1,1)
@@ -70,7 +70,7 @@ ax.set_ylabel('Stack Voltage [V]',labelpad=3)
 # ax.xaxis.set_tick_params(labelsize=34)
 # ax.yaxis.set_tick_params(labelsize=34)
 plt.show()
-plt.savefig('../paper/figures/vib_contour.png',bbox_inches='tight')
+plt.savefig('../figures/vib_contour.png',bbox_inches='tight')
 
 
 
@@ -85,7 +85,7 @@ ax.set_ylabel('Stack Voltage [V]')
 ax.set_zlabel('RMS Voltage [V]',labelpad=40)
 ax.view_init(30, -120)
 plt.show()
-plt.savefig('../paper/figures/pzt1_surface.png',bbox_inches='tight')
+plt.savefig('../figures/pzt1_surface.png',bbox_inches='tight')
 
 
 fig, ax = plt.subplots(1,1)
@@ -98,7 +98,7 @@ fig.colorbar(surf, shrink=0.5, aspect=10, ax = [ax],location = 'right',label='RM
 ax.set_xlabel('Frequency [Hz]',labelpad=3)
 ax.set_ylabel('Stack Voltage [V]',labelpad=3)
 plt.show()
-plt.savefig('../paper/figures/pzt1_contour.png',bbox_inches='tight')
+plt.savefig('../figures/pzt1_contour.png',bbox_inches='tight')
 
 
 # fig, ax = plt.subplots(1,1)
