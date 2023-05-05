@@ -10,7 +10,7 @@ Department of Applied Mechanics, FEMTO-ST Institute
 
 ## Experimental Setup
 <p align="center">
-  <img src="figures/airplane_photo.jpg" width="250"/>  &ensp;        <img src="figures/exp_setup_scheme.png" width="410"/> 
+  <img src="figures/airplane_photo.jpg" width="250"/>  &ensp;        <img src="figures/exp_setup_scheme.png" width="420"/> 
 </p>
 
 ## License
