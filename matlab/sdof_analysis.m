@@ -67,7 +67,7 @@ set(gcf, 'Units', 'Normalized', 'OuterPosition', [0.3, 0.2, 0.4, 0.7])
 semilogy(freq/(wn_oc/2/pi),(abs(H_oc)),'linewidth',1.5); hold on
 semilogy(freq/(wn_oc/2/pi),(abs(H_ep)),'linewidth',1.5); hold on
 semilogy(freq/(wn_oc/2/pi),(abs(H_ep_R1)),'linewidth',1.5); hold on
-% semilogy(freq/(wn_oc/2/pi),(abs(H_ep_R2)),'linewidth',1.5); hold on
+semilogy(freq/(wn_oc/2/pi),(abs(H_ep_R2)),'linewidth',1.5); hold on
 semilogy(freq/(wn_oc/2/pi),(abs(H_adp)),'linewidth',1.5); hold on
 xlim([0.85,1.15])
 ylim([1e-5,1e-2])
@@ -75,5 +75,3 @@ xlabel('Frequency [Hz]','interpreter','latex');
 ylabel('$H(\omega)$[m/N]','interpreter','latex');
 set(gca,'FontSize',17,'TickLabelInterpreter','latex')
 % exportgraphics(gcf, '../paper/figures/frf_sdof.png','Resolution',300)
-
-legend('PVA Off','L=$L_{ep}$ and R=$R_{ep}$ (Equal-peak)','L=$L_{ep}$ and R=$0.1R_{ep}$ (Low Resistance)','L=$L_{adpt}$ and R=$0.1R_{ep}$ (Adaptive)','interpreter','latex','location','northoutside')
