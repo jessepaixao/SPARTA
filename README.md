@@ -1,4 +1,4 @@
-# SPARTA: Self-adaptive Piezoelectric pAssive vibRaTion Absorber
+# **SPARTA**: **S**elf-adaptive **P**iezoelectric p**A**ssive vib**R**a**T**ion **A**bsorber
 
 This repository contains the experimental data and Matlab/Python codes implemented in the paper "Self-adaptive piezoelectric vibration absorber with high-Q tunable
 resonant shunt". 
